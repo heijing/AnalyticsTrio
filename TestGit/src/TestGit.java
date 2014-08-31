@@ -34,6 +34,7 @@ public class TestGit {
 				while( ( c = is.read() ) != -1 ){
 					System.out.print(( char ) c );;
 					os.write( c );
+					
 				}
 				is.close();
 				os.close();  
